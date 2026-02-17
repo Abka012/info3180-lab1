@@ -3,8 +3,16 @@
     <head>
         <meta charset="UTF-8" />
         <title>My Website - About</title>
+        <link
+            rel="stylesheet"
+            href="{{ url_for('static', filename='css/app.css') }}"
+        />
     </head>
     <body>
+        <img
+            src="{{ url_for('static', filename='Portrait.jpg') }}"
+            alt="Portrait Picture"
+        />
         <h1>Abka Ferguson</h1>
         <p>
             My name is Abka Ferguson, and I am a Computer Science student at the
